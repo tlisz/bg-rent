@@ -1,0 +1,12 @@
+.main-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #19a2d8;
+}
+
+.nav-link {
+    color: #ffffff;
+    padding-left: 1em;
+    font-size: 1.5em;
+}
