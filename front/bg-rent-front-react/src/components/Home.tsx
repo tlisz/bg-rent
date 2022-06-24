@@ -4,8 +4,8 @@ interface Props {
   children?: React.ReactNode;
 }
 
-const Home: React.FC<Props> = ({ children }) => (
-  <Fragment>
+const Home: React.FC<Props> = ({ children }) => {
+  return (<Fragment>
     <h1>Home</h1>
     Contrary to popular belief, Lorem Ipsum is not simply random text. It has
     roots in a piece of classical Latin literature from 45 BC, making it over
@@ -151,7 +151,7 @@ const Home: React.FC<Props> = ({ children }) => (
     "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
     original form, accompanied by English versions from the 1914 translation by
     H. Rackham.
-  </Fragment>
-);
+  </Fragment>);
+};
 
 export default Home;

@@ -5,7 +5,7 @@ const EventSelector = () => {
   return (
     <span className={styles.container}>
       <select name='events' id='events'>
-        {events.map(e => <option value={e}>{e}</option>)}
+        {events.map(e => <option key={e} value={e}>{e}</option>)}
       </select>
     </span>
   );
