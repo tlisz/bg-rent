@@ -1,0 +1,19 @@
+.main-navbar {
+  width: 100%;
+  background-color: #19a2d8;
+}
+
+.nav-link {
+  color: #ffffff;
+  padding-left: 1em;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.container {
+  position: absolute;
+  right: 0px;
+  padding-right: 1em;
+  color: #fff;
+  padding-top: 0.25em;
+}

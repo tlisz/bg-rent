@@ -1,0 +1,18 @@
+<nav class="main-navbar">
+  <a routerLink="/" class="nav-link">
+    Home
+  </a>
+  <a routerLink="/rent" class="nav-link">
+    Rent
+  </a>
+  <a routerLink="/return" class="nav-link">
+    Return
+  </a>
+  <span class="container">
+    <select name='events' id='events' (change)="changeEvent()" [(ngModel)]="selectedEvent">
+      <option *ngFor="let event of events" [value]="event">
+        {{event}}
+      </option>
+    </select>
+  </span>
+</nav>
